@@ -1,0 +1,53 @@
+.logo {
+    display: flex;            
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 15px;
+} 
+ 
+.dogimg {
+    position: absolute;        /* keeps image pinned to left */
+    left: 20px;                /* adjust distance from left edge */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* centers everything horizontally */
+    background-color: gray;
+    padding: 15px 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;        /* center title + nav */
+}
+
+.center h1 {
+    margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  gap: 30px; /* Space between items */
+  font-size: 18px;
+}
+
+.nav a {
+    margin: 15px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.nav a:hover {
+  text-decoration: underline;
+}

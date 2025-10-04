@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    zoom: 150%;
+    margin: 0;
+    
+}
+
+.main {
+    position: fixed;
+    text-align: left;
+    padding: 25px;
+    margin-top: 85px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    margin-bottom: 0px;
+    line-height: 75%;
+    background-color: gray;
+    padding: 15px;
+    width: 100%;
+}
